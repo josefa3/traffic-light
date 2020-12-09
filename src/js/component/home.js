@@ -1,11 +1,7 @@
 import React from "react";
-import { TrafficLight } from "./trafficLi.js";
+import TrafficLight from "./trafficLi.js";
 
 //create your first component
 export function Home() {
-	return (
-		<>
-			<TrafficLight />
-		</>
-	);
+	return <TrafficLight />;
 }
