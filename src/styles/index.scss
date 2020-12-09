@@ -15,10 +15,19 @@
     flex-direction: column;
     align-items: center;
 }
-.verde, .amarillo, .rojo {
+.luz {
     border-radius: 50%;
     width: 127px;
     height: 127px;
     margin: 8px;
+}
+.encendido {
+    box-shadow: #e9f895 0px 0px 50px 20px;
+}
+.apagado {
+    opacity: 0.3;
+}
+.bg-danger, .bg-success, .bg-warning {
+    cursor: pointer;
 }
 
